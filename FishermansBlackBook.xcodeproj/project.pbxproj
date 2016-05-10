@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4BD2FC941CDD961E0029D59C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD2FC931CDD961E0029D59C /* AppDelegate.swift */; };
-		4BD2FC961CDD961E0029D59C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD2FC951CDD961E0029D59C /* ViewController.swift */; };
+		4BD2FC961CDD961E0029D59C /* EntryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD2FC951CDD961E0029D59C /* EntryController.swift */; };
 		4BD2FC991CDD961E0029D59C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BD2FC971CDD961E0029D59C /* Main.storyboard */; };
 		4BD2FC9C1CDD961E0029D59C /* FishermansBlackBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4BD2FC9A1CDD961E0029D59C /* FishermansBlackBook.xcdatamodeld */; };
 		4BD2FC9E1CDD961E0029D59C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BD2FC9D1CDD961E0029D59C /* Assets.xcassets */; };
@@ -31,7 +31,7 @@
 /* Begin PBXFileReference section */
 		4BD2FC901CDD961D0029D59C /* FishermansBlackBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FishermansBlackBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BD2FC931CDD961E0029D59C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4BD2FC951CDD961E0029D59C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4BD2FC951CDD961E0029D59C /* EntryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryController.swift; sourceTree = "<group>"; };
 		4BD2FC981CDD961E0029D59C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4BD2FC9B1CDD961E0029D59C /* FishermansBlackBook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FishermansBlackBook.xcdatamodel; sourceTree = "<group>"; };
 		4BD2FC9D1CDD961E0029D59C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -83,7 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				4BD2FC931CDD961E0029D59C /* AppDelegate.swift */,
-				4BD2FC951CDD961E0029D59C /* ViewController.swift */,
+				4BD2FC951CDD961E0029D59C /* EntryController.swift */,
 				4BD2FC971CDD961E0029D59C /* Main.storyboard */,
 				4BD2FCB61CDD9C680029D59C /* Entry.swift */,
 				4BD2FC9D1CDD961E0029D59C /* Assets.xcassets */,
@@ -206,7 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BD2FCB71CDD9C680029D59C /* Entry.swift in Sources */,
-				4BD2FC961CDD961E0029D59C /* ViewController.swift in Sources */,
+				4BD2FC961CDD961E0029D59C /* EntryController.swift in Sources */,
 				4BD2FC941CDD961E0029D59C /* AppDelegate.swift in Sources */,
 				4BD2FC9C1CDD961E0029D59C /* FishermansBlackBook.xcdatamodeld in Sources */,
 			);
@@ -407,6 +407,7 @@
 				4BD2FCB21CDD961E0029D59C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4BD2FCB31CDD961E0029D59C /* Build configuration list for PBXNativeTarget "FishermansBlackBookTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +416,7 @@
 				4BD2FCB51CDD961E0029D59C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
